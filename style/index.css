@@ -28,6 +28,7 @@ a {
 .a-nolink {
   color: white;
   background-color: black;
+  border-color: black;
 }
 
 header nav {
