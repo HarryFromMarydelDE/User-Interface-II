@@ -93,3 +93,25 @@ h2 {
   font-weight: bold;
   font-size: 1.25rem;
 }
+
+footer {
+  background: gainsboro;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer > * {
+  margin: 1rem;
+}
+
+.a-social {
+  background-color: inherit;
+  padding: 0;
+  border: 0
+}
+
+.a-social img {
+  height: 2rem;
+}
