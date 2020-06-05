@@ -51,7 +51,7 @@ header nav {
 }
 
 #photo {
-  width: 20%;
+  width: 25%;
 }
 
 #introduction-text {
@@ -72,4 +72,24 @@ h2 {
   font-weight: bold;
 }
 
+#featured-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
 
+#featured-projects figure {
+  width: 22.5%;
+  text-align: center;
+}
+
+#featured-projects figure img {
+  width: 99.999%;
+}
+
+#featured-projects figure figcaption {
+  margin: 0.25rem 0;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
