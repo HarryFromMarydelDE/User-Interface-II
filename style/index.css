@@ -157,6 +157,7 @@ footer > * {
   header {
     align-items: center;
     background-color: transparent;
+    border-style: none;
   }
 
   h1 {
