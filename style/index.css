@@ -157,4 +157,16 @@ footer > * {
   header nav {
     flex-direction: column;
   }
+
+  #featured-projects {
+    justify-content: space-between;
+  }
+
+  #featured-projects figure {
+    width: 45%;
+  }
+
+  #featured-projects figure:nth-of-type(n+7){
+    display: none;
+  }
 }
