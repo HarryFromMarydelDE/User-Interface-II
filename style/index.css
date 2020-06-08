@@ -116,3 +116,9 @@ footer > * {
 .a-social img {
   height: 2rem;
 }
+
+@media(max-width: 800px) {
+}
+
+@media(max-width: 500px) {
+}
