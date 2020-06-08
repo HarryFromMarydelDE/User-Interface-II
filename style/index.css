@@ -158,6 +158,8 @@ footer > * {
     align-items: center;
     background-color: transparent;
     border-style: none;
+    padding: 0 1rem;
+    margin: 0 1rem;
   }
 
   h1 {
