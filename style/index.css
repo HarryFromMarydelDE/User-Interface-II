@@ -118,6 +118,39 @@ footer > * {
 }
 
 @media(max-width: 800px) {
+  h1 {
+    font-size: 2rem
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  #photo {
+    height: 53.333;
+    width: 40%;
+  }
+
+  #introduction-text {
+    padding: 0 1rem;
+    margin: 0;
+  }
+
+  #introduction-text > * {
+    margin-top: 1rem;
+  }
+
+  #introduction-text h2 {
+    margin-top: 0;
+  }
+
+  #featured-projects {
+    justify-content: space-around;
+  }
+
+  #featured-projects figure {
+    width: 30%;
+  }
 }
 
 @media(max-width: 500px) {
