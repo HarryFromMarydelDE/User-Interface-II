@@ -116,3 +116,88 @@ footer > * {
 .a-social img {
   height: 2rem;
 }
+
+@media(max-width: 800px) {
+  h1 {
+    font-size: 2rem
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  #photo {
+    height: 53.333;
+    width: 40%;
+  }
+
+  #introduction-text {
+    padding: 0 1rem;
+    margin: 0;
+  }
+
+  #introduction-text > * {
+    margin-top: 1rem;
+  }
+
+  #introduction-text h2 {
+    margin-top: 0;
+  }
+
+  #featured-projects {
+    justify-content: space-around;
+  }
+
+  #featured-projects figure {
+    width: 30%;
+  }
+}
+
+@media(max-width: 500px) {
+  header {
+    align-items: center;
+    background-color: transparent;
+    border-style: none;
+    padding: 0 1rem;
+    margin: 0 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  header nav {
+    flex-direction: column;
+  }
+
+  #featured-projects {
+    justify-content: space-between;
+  }
+
+  #featured-projects figure {
+    width: 45%;
+  }
+
+  #featured-projects figure:nth-of-type(n+7){
+    display: none;
+  }
+
+  #introduction {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #introduction-text {
+    margin-top: 1rem;
+  }
+
+  #featured-projects figure {
+    margin-bottom: 1rem;
+  }
+
+  #content {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
